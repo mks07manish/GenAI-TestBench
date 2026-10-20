@@ -1,0 +1,49 @@
+[
+  {
+    "id": "RAG-001",
+    "question": "How many annual leave days do full-time employees receive?",
+    "expected_behavior": "answer",
+    "relevant_keywords": [
+      "annual leave",
+      "20 annual leave days",
+      "full-time employees"
+    ],
+    "min_retrieval_relevance": 0.6,
+    "min_faithfulness": 0.7,
+    "min_answer_relevance": 0.7
+  },
+  {
+    "id": "RAG-002",
+    "question": "How many sick leave days are provided each year?",
+    "expected_behavior": "answer",
+    "relevant_keywords": [
+      "sick leave",
+      "10 sick leave days",
+      "calendar year"
+    ],
+    "min_retrieval_relevance": 0.6,
+    "min_faithfulness": 0.7,
+    "min_answer_relevance": 0.7
+  },
+  {
+    "id": "RAG-003",
+    "question": "What is the policy for travel expense submissions?",
+    "expected_behavior": "answer",
+    "relevant_keywords": [
+      "business travel expenses",
+      "expense portal",
+      "30 days",
+      "receipts"
+    ],
+    "min_retrieval_relevance": 0.6,
+    "min_faithfulness": 0.7,
+    "min_answer_relevance": 0.7
+  },
+  {
+    "id": "RAG-004",
+    "question": "What is the company policy for travel to Mars?",
+    "expected_behavior": "abstain",
+    "min_faithfulness": 0.7,
+    "min_answer_relevance": 0.5
+  }
+]

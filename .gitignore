@@ -1,0 +1,19 @@
+﻿node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+
+playwright-report/
+test-results/
+coverage/
+
+# Ignore generated reports, but keep the custom reporter source
+reports/*.json
+reports/*.html
+
+# Local vector database
+data/chroma/
