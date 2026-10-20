@@ -269,8 +269,10 @@ private test data.
 5.  Add repeat-run analysis for nondeterministic failures.
 6.  Document representative datasets and evaluation thresholds.
 
-## License
+## Author
 
-Choose and add a license before publishing if you want others to reuse
-the project. Do not imply an open-source license until you have selected
-one.
+**Manish Kumar Sonkar**
+
+SDET | Test Automation | API Testing | Playwright | GenAI Testing
+
+This is a learning and portfolio project intended to explore automated testing techniques for locally hosted LLM applications.
